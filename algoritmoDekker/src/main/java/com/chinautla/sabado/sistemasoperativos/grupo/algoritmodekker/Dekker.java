@@ -33,7 +33,7 @@ public class Dekker {
                 if (turno ==otro){
                     flag[id]=false;
                     while (turno!=id){
-                //Se espera al otro hilo
+                        //Se espera al otro hilo
                     }
                     flag[id]=true;
                 }
@@ -45,7 +45,7 @@ public class Dekker {
 
             //Suma de los primero 1000 numeros
             for (int j = 0; j < 1000; j++) {
-                    suma = suma + j;								
+                suma = suma + j;								
             }
             System.out.println("Suma los primeros 1000 números naturales con 20 iteraciones: "+suma);
 
